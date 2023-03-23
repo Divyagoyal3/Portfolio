@@ -1,0 +1,5 @@
+https://webflow.com/templates/html/daynight-portfolio-website-template
+primary font color: white
+secondary color: #e101c0
+text-shadow: 1px 1px 1px white, 0 0 25px rgb(211, 37, 81), 0 0 5px #f9004d;
+}
