@@ -229,7 +229,7 @@
   max-width: 580px;
   max-height: 480px;
   margin-right: auto ;
-  padding: 25px;
+  padding: 21px;
   background-color: black;
   border-radius: 10px;
 }
@@ -411,5 +411,13 @@
   color: white;
   padding: 1rem;
   height: 6rem;
+
+}
+.align-middle{
+    align-items: center;
+    color:white;
+    font-size: 2.5rem;
+    padding-top:2rem;
+    box-shadow: #f9004d;
 
 }
