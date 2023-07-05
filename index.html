@@ -12,29 +12,33 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="style.css" />
+    
   </head>
   <body>
     <!--header section-->
     <header class="header">
-      <div class="header-wrap container-section display-flex-row">
+      <div  class="header-wrap container-section display-flex-row">
         <img class="set-img" src="./images/Divya.png" alt="" />
         <!--<h2 class="align-left">Portfo<span class="head">lio</span></h2>-->
         <div>
           <ul class="nav display-flex-row">
             <li>
-              <a href="">Ho<span class="head">me</span> </a>
+              <a href="#home">Ho<span class="head">me</span> </a>
             </li>
             <li>
-              <a href="">Ab<span class="head">out</span></a>
+              <a href="#about">Ab<span class="head">out</span></a>
             </li>
             <li>
-              <a href="">Proj<span class="head">ects</span></a>
+              <a href="#skills">Ski<span class="head">lls</span></a>
             </li>
             <li>
-              <a href="">Con<span class="head">tact</span></a>
+              <a href="#Projects">Proj<span class="head">ects</span></a>
             </li>
             <li>
-              <a href="" class="btn">Download</a>
+              <a href="#Contact">Con<span class="head">tact</span></a>
+            </li>
+            <li>
+              <a href="#Download" class="btn">Download</a>
             </li>
           </ul>
         </div>
@@ -42,7 +46,9 @@
     </header>
     <!--end header section-->
     <!--main section-->
-    <main class="main-section-work align display-flex-row">
+    <div id ="home">
+    <main  class="main-section-work align1  display-flex-row">
+      
       <div class="left-block display-flex-col">
         
            <div class="set-pagr"><p>WELCOME TO MY WORLD</p></div>
@@ -68,9 +74,12 @@
     </div>
      <div class="right-block display-flex-row"></div>
     </main>
+  </div>
     <!-- About Section-->
+    <div id ="about">
      <main class="main-section-align back-align display-flex-align">
-      <div class="left-block-align display-flex-row"></div>
+      <div class="left-block-align display-flex-row">
+      </div>
       <div class="right-block-align display-flex-row">
         <div class="right-block-align display-flex-col">
         <h3 class="right-block-align">About <span class="set-web1">Me</span></h3>
@@ -90,10 +99,53 @@
       </div>
       </div>
     </main>
+  </div>
     <!-- End About Section-->
 
     <!--Skill Sections-->
-  <main class="skill-section align">
+    <main  id ="skills" class="skill-section">
+      <div class ="left-skill-align">
+        <h3 class="skill-align ">Profe<span class="set-web1">ssional</span> Ski<span class="set-web1">lls</span></h3>
+    
+        <div class ="wrap">
+          <div class="bar">
+          <h3>HTML<abbr>80%</abbr></h3>
+          <div class="thumb"><span></span></div>
+          </div>
+
+          <div class="bar">
+          <h3>CSS<abbr>65%</abbr></h3>
+          <div class="thumb"><span></span></div>
+          </div>
+
+          <div class="bar">
+            <h3>JAVASCRIPT<abbr>60%</abbr></h3>
+            <div class="thumb"><span></span></div>
+          </div>
+
+          <div class="bar">
+            <h3>SQL<abbr>70%</abbr></h3>
+            <div class="thumb"><span></span></div>
+          </div>
+
+        </div>
+      
+      </div>
+    
+        <div class="right-skill-align">
+          <div class="image-slide"></div>
+        </div>
+    </main>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- <main id ="skills" class="skill-section align1 ">
      <h3 class="skill-align ">Profe<span class="set-web1">ssional</span> Ski<span class="set-web1">lls</span></h3>
      <div class="bar-line"></div> 
      <div class="container">
@@ -120,16 +172,20 @@
             <button><a href="https://www.w3schools.com/js/default.asp">Read More</a></button>
         </div>
       </div>
-       </div>
-    </main>   
+       </div> -->
+    <!-- </main>    -->
     <!--End Skill section-->
+
+
   <!--Knowlege section-->
-  <section class="knowlege-section back-align">
+  <!-- <section class="knowlege-section back-align">
     <h3 class="skill-align ">Knowl<span class="set-web1">edge</span> Ba<span class="set-web1">se</span></h3>
     <div class="bar-line"></div> 
     <div class="container">
     </div>
   </section>
+  <div class="slider"></div> -->
+  
   <!--FOOTER SECTION-->
     <footer class="footer-container">
         <div class="align-middle">
@@ -138,5 +194,8 @@
       
     </footer>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src = "index.js"></script>
   </body>
 </html>
